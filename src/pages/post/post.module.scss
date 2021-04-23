@@ -1,0 +1,96 @@
+.container {
+    margin: 5rem auto 0;
+   
+}
+
+
+.banner { 
+   width:100%;
+    left:0;
+    margin-bottom:0;
+    border-radius:0
+}
+
+
+.title { 
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F8F8F8
+
+}
+.post{
+
+    max-width:720px;
+    margin:5rem auto 0;
+    padding-bottom:10rem;
+
+}
+
+.bodyText{ 
+
+     & +  div {
+         margin-top:2rem;
+     }
+
+
+.heading {
+    margin-top:2rem;
+    color : #F8F8F8;
+    font-size:2.25rem;
+    font-weight:bold;
+}
+
+.text { 
+    margin-top: 2rem;
+    color:#F8F8F8;
+    font-size: 1.125rem;
+}
+
+
+
+}
+.DateAndAuthor {
+
+    display:flex;
+    align-items:center;
+    
+    max-width:500px;
+
+    time {
+        
+        font-size:0.875rem;
+        color: var(--gray-300);
+        margin-top:1.56rem;
+        color:#BBBBBB;
+        margin-left:0.5rem;
+    }
+
+    p {
+      
+        color:#BBBBBB;
+        margin-top:1.56rem;
+        margin-left:0.5rem;
+        line-height: 1.625rem;
+        font-size:0.875rem;
+      
+    }
+
+    .calendaricon { 
+        margin-top:1.5rem;
+        color: #BBBBBB;
+    }
+    
+    .usericon {
+        margin-top:1.5rem;
+        color:#BBBBBB;
+        margin-left:2.5rem;
+    }
+
+    .clockicon {
+        margin-top:1.5rem;
+        color:#BBBBBB;
+        margin-left:2.5rem;
+
+    }
+}   
+
